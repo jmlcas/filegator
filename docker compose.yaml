@@ -5,8 +5,8 @@ services:
     container_name: filegator
     restart: unless-stopped
     ports:
-      - "8380:8080"
+      - "8280:8080"
     volumes:
       - ./files:/var/www/filegator/repository
-      - ./private:/var/www/filegator/private
-
+      - ./private:/var/www/filegator/private:rw
+      - ./configuration.php:/var/www/filegator/configuration.php:rw
