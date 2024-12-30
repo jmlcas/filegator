@@ -2,6 +2,6 @@
 
 Ver en "http://localhost:8280"
 
-User: admin
+Nombre de usuario: admin
 
-Password: admin123
+Contraseña: admin123
